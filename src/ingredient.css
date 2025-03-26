@@ -1,0 +1,27 @@
+layout {
+    display: flex;
+    padding: 24px 32px 24px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 24px;
+    background: var(--off-white, #FFFFF9);
+}
+
+fav {
+    display: flex;
+    padding: 24px 32px 24px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+rec {
+    color: var(--black, #202124);
+/* Subheader */
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
