@@ -1,0 +1,108 @@
+.popUp {
+  /* Layout */
+  display: flex;
+  width: 410px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  /* Styling */
+  box-shadow: 0px 2px 0px 0px rgba(79, 98, 89, 0.10);
+}
+
+.content {
+  /* Layout */
+  display: flex;
+  padding: 32px 32px 24px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+
+  /* Style */
+  border-radius: 16px 16px 0px 0px;
+}
+
+.p {
+  /* Layout */
+  align-self: stretch;
+
+  /* Typography */
+  color: var(--Black, #202124);
+
+  /* body */
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.editor {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.incrementor {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropDown {
+  /* Layout */
+  display: flex;
+  height: 34px;
+  padding: 5px 16px;
+  align-items: center;
+  gap: 13px;
+
+  /* Style */
+  border-radius: 100px;
+  background: var(--grey, #D6DCD9);
+}
+
+.option {
+  /* Layout */
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+
+  /* Style */
+  border-radius: 0px 0px 16px 16px;
+  border-top: 1.5px solid var(--aqua, #A8CABA);
+}
+
+.optionButton {
+  /* Layout */
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+
+  /* Style */
+  background: var(--off-white, #FFFFF9);
+}
+
+.option:first-child {
+  border-radius: 0px 0px 0px 16px;
+  border-right: 1.5px dashed var(--aqua, #A8CABA);
+
+}
+.option:last-child {
+  border-radius: 0px 0px 16px 0px;
+  border-left: 1.5px dashed var(--aqua, #A8CABA);  
+}
+
+.optionButton button {
+  color: var(--black, #202124);
+
+  /* body bold */
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
