@@ -4,10 +4,10 @@ import viteLogo from '/vite.svg'
 
 function Ingredient(id, name){
 
-    <div class = "fav">
-        <h2>Favorite Ingredients</h2>   // should this link to something else
-    </div>
         
+    <div class="ingredbox">
+        <h2>Ingredient Item Name</h2>
+    </div>
     
 
 }
