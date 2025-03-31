@@ -1,0 +1,42 @@
+{
+  "food_categories": [
+    "Fruits",
+    "Vegetables",
+    "Grains & Cereals",
+    "Proteins",
+    "Dairy & Alternatives",
+    "Fats & Oils",
+    "Herbs & Spices",
+    "Legumes & Beans",
+    "Nuts & Seeds",
+    "Sweeteners",
+    "Beverages",
+    "Snacks & Processed Foods",
+    "Condiments & Sauces"
+  ],
+  "meal_type": [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Snack"
+  ],
+  "dietary_preferences": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free",
+    "Keto",
+    "Paleo",
+    "Halal",
+    "Kosher"
+  ],
+  "allergies": [
+    "Dairy",
+    "Eggs",
+    "Peanuts",
+    "Tree nuts",
+    "Shellfish",
+    "Fish",
+    "Soy",
+    "Wheat"
+  ]
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "id": 0,
+    "name": "Apple",
+    "image": "0_apple.png",
+    "category": "Fruit",
+    "nutritional_facts": {
+      "serving_size": {
+        "value": 182,
+        "unit": "g",
+        "common_name": "Medium Apple"
+      },
+      "calories": 52,
+      "total_fat": {
+        "value": 0.4,
+        "unit": "g",
+        "percentage": 0.5
+      },
+      "trans_fat": {
+        "value": 0,
+        "unit": "g"
+      },
+      "cholesterol": {
+        "value": 0,
+        "percentage": 0
+      },
+      "sodium": {
+        "value": 1.8,
+        "unit": "mg",
+        "percentage": 0
+      },
+      "total_carbohydrates": {
+        "value": 25,
+        "unit": "g",
+        "percentage": 9
+      },
+      "dietary_fiber": {
+        "value": 4.4,
+        "unit": "g",
+        "percentage": 16
+      },
+      "sugars": {
+        "value": 19,
+        "unit": "g"
+      },
+      "protein": {
+        "value": 0.5,
+        "unit": "g"
+      },
+      "minerals": {
+        "Calcium": {
+          "value": 11,
+          "unit": "mg",
+          "percentage": 1
+        },
+        "Iron": {
+          "value": 0.2,
+          "unit": "mg",
+          "percentage": 1
+        },
+        "Potassium": {
+          "value": 194.7,
+          "unit": "mg",
+          "percentage": 4
+        }
+      },
+      "vitamins": {}
+    }
+  },
+  {
+    "id": 1,
+    "name": "Flour",
+    "image": "1_flour.png",
+    "nutritional_facts": {
+      "serving_size": {
+        "value": 100,
+        "unit": "g",
+        "common_name": "1 cup"
+      },
+      "calories": 364,
+      "total_fat": {
+        "value": 1,
+        "unit": "g",
+        "percentage": 1
+      },
+      "trans_fat": {
+        "value": 0,
+        "unit": "g"
+      },
+      "cholesterol": {
+        "value": 0,
+        "percentage": 0
+      },
+      "sodium": {
+        "value": 2,
+        "unit": "mg",
+        "percentage": 0
+      },
+      "total_carbohydrates": {
+        "value": 76,
+        "unit": "g",
+        "percentage": 25
+      },
+      "dietary_fiber": {
+        "value": 2,
+        "unit": "g",
+        "percentage": 8
+      },
+      "sugars": {
+        "value": 0,
+        "unit": "g"
+      },
+      "protein": {
+        "value": 10,
+        "unit": "g"
+      },
+      "minerals": {
+        "Iron": {
+          "value": 3,
+          "unit": "mg",
+          "percentage": 17
+        },
+        "Calcium": {
+          "value": 15,
+          "unit": "mg",
+          "percentage": 1
+        }
+      },
+      "vitamins": {}
+    },
+    "category": "Baking & Grains"
+  },
+  {
+    "id": 2,
+    "name": "Milk",
+    "image": "2_milk.png",
+    "nutritional_facts": {
+      "serving_size": {
+        "value": 240,
+        "unit": "ml",
+        "common_name": "1 cup"
+      },
+      "calories": 103,
+      "total_fat": {
+        "value": 2.4,
+        "unit": "g",
+        "percentage": 3
+      },
+      "trans_fat": {
+        "value": 0,
+        "unit": "g"
+      },
+      "cholesterol": {
+        "value": 12,
+        "unit": "mg",
+        "percentage": 4
+      },
+      "sodium": {
+        "value": 98,
+        "unit": "mg",
+        "percentage": 4
+      },
+      "total_carbohydrates": {
+        "value": 12,
+        "unit": "g",
+        "percentage": 4
+      },
+      "dietary_fiber": {
+        "value": 0,
+        "unit": "g",
+        "percentage": 0
+      },
+      "sugars": {
+        "value": 12,
+        "unit": "g"
+      },
+      "protein": {
+        "value": 8,
+        "unit": "g"
+      },
+      "minerals": {
+        "Calcium": {
+          "value": 305,
+          "unit": "mg",
+          "percentage": 31
+        },
+        "Potassium": {
+          "value": 366,
+          "unit": "mg",
+          "percentage": 10
+        }
+      },
+      "vitamins": {
+        "Vitamin D": {
+          "value": 120,
+          "unit": "IU",
+          "percentage": 15
+        },
+        "Vitamin B12": {
+          "value": 1.3,
+          "unit": "mcg",
+          "percentage": 54
+        }
+      }
+    },
+    "category": "Dairy"
+  },
+  {
+    "id": 3,
+    "name": "Egg",
+    "image": "3_egg.png",
+    "nutritional_facts": {
+      "serving_size": {
+        "value": 50,
+        "unit": "g",
+        "common_name": "1 large egg"
+      },
+      "calories": 70,
+      "total_fat": {
+        "value": 5,
+        "unit": "g",
+        "percentage": 8
+      },
+      "trans_fat": {
+        "value": 0,
+        "unit": "g"
+      },
+      "cholesterol": {
+        "value": 186,
+        "unit": "mg",
+        "percentage": 62
+      },
+      "sodium": {
+        "value": 70,
+        "unit": "mg",
+        "percentage": 3
+      },
+      "total_carbohydrates": {
+        "value": 1,
+        "unit": "g",
+        "percentage": 0
+      },
+      "dietary_fiber": {
+        "value": 0,
+        "unit": "g",
+        "percentage": 0
+      },
+      "sugars": {
+        "value": 1,
+        "unit": "g"
+      },
+      "protein": {
+        "value": 6,
+        "unit": "g"
+      },
+      "minerals": {
+        "Iron": {
+          "value": 1,
+          "unit": "mg",
+          "percentage": 6
+        },
+        "Calcium": {
+          "value": 28,
+          "unit": "mg",
+          "percentage": 2
+        }
+      },
+      "vitamins": {
+        "Vitamin D": {
+          "value": 40,
+          "unit": "IU",
+          "percentage": 5
+        },
+        "Vitamin A": {
+          "value": 270,
+          "unit": "IU",
+          "percentage": 5
+        }
+      }
+    },
+    "category": "Protein"
+  },
+  {
+    "id": 4,
+    "name": "Banana",
+    "image": "4_banana.png",
+    "nutritional_facts": {
+      "serving_size": {
+        "value": 118,
+        "unit": "g",
+        "common_name": "1 medium banana"
+      },
+      "calories": 105,
+      "total_fat": {
+        "value": 0.3,
+        "unit": "g",
+        "percentage": 0
+      },
+      "trans_fat": {
+        "value": 0,
+        "unit": "g"
+      },
+      "cholesterol": {
+        "value": 0,
+        "percentage": 0
+      },
+      "sodium": {
+        "value": 1,
+        "unit": "mg",
+        "percentage": 0
+      },
+      "total_carbohydrates": {
+        "value": 27,
+        "unit": "g",
+        "percentage": 9
+      },
+      "dietary_fiber": {
+        "value": 3,
+        "unit": "g",
+        "percentage": 12
+      },
+      "sugars": {
+        "value": 14,
+        "unit": "g"
+      },
+      "protein": {
+        "value": 1.3,
+        "unit": "g"
+      },
+      "minerals": {
+        "Potassium": {
+          "value": 422,
+          "unit": "mg",
+          "percentage": 12
+        },
+        "Magnesium": {
+          "value": 32,
+          "unit": "mg",
+          "percentage": 8
+        }
+      },
+      "vitamins": {
+        "Vitamin C": {
+          "value": 10,
+          "unit": "mg",
+          "percentage": 11
+        },
+        "Vitamin B6": {
+          "value": 0.4,
+          "unit": "mg",
+          "percentage": 20
+        }
+      }
+    },
+    "category": "Fruits"
+  }
+]

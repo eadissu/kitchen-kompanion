@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "username": "foodie123",
+    "name": "Jane",
+    "email": "jane@example.com",
+    "profile_image": "foodie123_pp.png",
+    "dietary_preferences": ["Vegetarian"],
+    "allergies": ["Peanuts", "Shellfish"],
+    "shopping_lists": [
+      {
+        "id": 0,
+        "name": "Weekly Groceries",
+        "ingredients": {
+          "0" : {"quantity": {"value": 3, "unit": "Medium Apples"}, "checked": false},
+          "2" : {"quantity": {"value": 1, "unit": "Gallon"}, "checked": false}
+        }
+      }
+    ],
+    "pantry": {
+      "0" : {"quantity": "Low", "storage": "pantry"},
+      "2" : {"quantity": "Low", "storage": "fridge"},
+      "3" : {"quantity": "High", "storage": "fridge"}
+    },
+    "favorite_ingredients": [
+      {"id": 0},
+      {"id": 4} 
+    ],
+    "favorite_recipes": [
+      {"id": 10}
+    ]
+  }
+]
