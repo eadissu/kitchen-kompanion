@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import ingredients from '../data/ingredients.json';
 import users from '../data/users.json';
 
+import '../styling/Ingredient.css';
+
 // Importing Icons
 import heart_icon_true from '../icons/heart_full.svg';
 import heart_icon_false from '../icons/heart_not_full.svg';
@@ -47,7 +49,7 @@ function Ingredient({ id }) {
       <div className="ingredient">
         <div className="ingredient-info">
           <div className='image'>
-            <img src="" alt={ingredient.name} />
+            <img src={`/images/${ingredient.image}`} alt={ingredient.name} />
           </div>
           <p>{ingredient.name}</p>
         </div>
