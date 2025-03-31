@@ -5,6 +5,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Search from "./Search";
 import Navbar from "./NavBar";
+import Ingredient from './components/Ingredient';
 import SetQuantity from "./popups/SetQuantity";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/search" element={<Search />} />
         <Route path="/setQuantity" element={<SetQuantity />} />
+        <Route path="/Ingredient" element={<Ingredient />} />
       </Routes>
     </Router>
   );
