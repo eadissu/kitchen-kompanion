@@ -6,7 +6,7 @@ import '../styling/Pantry.css';
 
 // for now, this is just a list of the user's ingredient's in their pantry. it's also hard coded to one user (the first one)
 
-function Pantry() {
+function Kitchen() {
   // Hardcoding to the first user
   const currentUser = users[0];
 
@@ -29,4 +29,4 @@ function Pantry() {
   );
 }
 
-export default Pantry;
+export default Kitchen;

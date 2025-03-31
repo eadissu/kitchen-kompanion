@@ -5,14 +5,13 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Pages
-import Pantry from "./pages/Pantry";
 
-import ShoppingList from './ShoppingList';
-import Search from "./Search";
-import Navbar from "./NavBar";
-import Kitchen from './Kitchen';
-import Recipes from './Recipes';
-import Profile from './Profile';
+import ShoppingList from './pages/ShoppingList';
+import Search from "./pages/Search";
+import Navbar from "./components/NavBar";
+import Kitchen from "./pages/Kitchen";
+import Recipes from './pages/Recipes';
+import Profile from './pages/Profile';
 import Ingredient from './components/Ingredient';
 import SetQuantity from "./popups/SetQuantity";
 
@@ -25,7 +24,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/setQuantity" element={<SetQuantity />} />
         <Route path="/Ingredient" element={<Ingredient />} />
-        <Route path="/Pantry" element={<Pantry />} />
+        <Route path="/Kitchen" element={<Kitchen />} />
         <Route path="/shoppinglist" element={<ShoppingList />} />
         <Route path="/kitchen" element={<Kitchen />} />
         <Route path="/recipes" element={<Recipes />} />

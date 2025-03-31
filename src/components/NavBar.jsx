@@ -1,10 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
-import './Navbar.css';
+import '../styling/NavBar.css';
 
-import shoppingIcon from './assets/icons/shoppinglist.svg';
-import kitchenIcon from './assets/icons/kitchen.svg';
-import recipesIcon from './assets/icons/recipes.svg';
-import profileIcon from './assets/icons/profile.svg';
+import shoppingIcon from '../assets/icons/shoppinglist.svg';
+import kitchenIcon from '../assets/icons/kitchen.svg';
+import recipesIcon from '../assets/icons/recipes.svg';
+import profileIcon from '../assets/icons/profile.svg';
 
 function Navbar() {
   const location = useLocation();
