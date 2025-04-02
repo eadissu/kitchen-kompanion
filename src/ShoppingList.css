@@ -1,0 +1,66 @@
+.mode-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+ }
+ 
+ 
+ .list-name-input {
+    margin-bottom: 1rem;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }
+ 
+ 
+ .save-list-btn {
+    margin-top: 1rem;
+    background-color: #88d8b0;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+ 
+ 
+ .saved-lists-view button {
+    margin: 5px 0;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+ }
+ 
+ 
+ .saved-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #444;
+ }
+ 
+ 
+ .saved-list-actions {
+    display: flex;
+    gap: 0.5rem;
+ }
+ 
+ 
+ .delete-btn {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    font-size: 1rem;
+    cursor: pointer;
+ }
+ 
+ 
+ .delete-btn:hover {
+    transform: scale(1.1);
+ }
+ 
+ 
+ 
