@@ -43,7 +43,7 @@ span {
 
   /* body */
   font-family: var(--font-paragraph-family);
-  font-size: var(--font-paragraph-family);
+  font-size: var(--font-paragraph-size);
   font-style: var(--font-paragraph-style);
   font-weight: var(--font-paragraph-weight);
   line-height: var(--line-paragraph-height);
@@ -75,6 +75,40 @@ span {
   /* Style */
   border-radius: 0px 0px 16px 16px;
   border-top: 1.5px solid var(--aqua);
+}
+
+.option-button {
+  /* Layout */
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+
+  /* Style */
+  background: var(--white);
+  border: none;
+
+  /* Typography */
+  color: var(--black);
+
+  /* body bold */
+  font-family: var(--font-paragraph-family);
+  font-size: var(--font-paragraph-size);
+  font-style: var(--font-paragraph-style);
+  font-weight: var(--font-paragraph-bold-weight);
+  line-height: var(--line-paragraph-height);
+}
+
+.option-button.left {
+  border-radius: 0px 0px 0px 16px;
+  border-right: 1.5px dashed var(--aqua);
+}
+
+.option-button.right {
+  border-radius: 0px 0px 16px 0px;
+  border-left: 1.5px dashed var(--aqua);
 }
 
 /* Prevent scrolling */

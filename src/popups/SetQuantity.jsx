@@ -39,7 +39,10 @@ function SetQuantity() {
           <DropdownButton dropdownType={"unit"} />
         </div>
       </div>
-      <div className="options"></div>
+      <div className="options">
+        <button className='option-button left'> Cancel </button>
+        <button className='option-button right'> Ok </button>
+      </div>
     </div>
   );
 }
