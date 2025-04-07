@@ -10,25 +10,18 @@ import DefaultButton from '../components/DefaultButton';
 import TextField from '../components/TextField';
 import DropdownButton from '../components/DropDownButton';
 
-/* Pop Up Variants:
-  qualitative-edit
-  quantitative-edit
-  name-edit
-  information
-*/
 
-function SetQuantity() {
+function SetQuantityNumeric() {
   const [quantity, setQuantity] = useState(0);
 
   // Handle the Add and Subtract button clicks
   const incrementQuantity = () => setQuantity((prev) => prev + 1);
   const decrementQuantity = () => setQuantity((prev) => (prev > 0 ? prev - 1 : 0));
 
-
   return (
     <div className="pop-up">
       <div className="interactive-contents">
-        <span>Please set a quantity for this Ingredient</span>
+        <span>Please set a quantity for this Ingredient.</span>
         <div className="editable">
           <div className="input">
           <DefaultButton variant={"grey"} icon={<Subtract />} onClick={decrementQuantity} />
@@ -47,4 +40,4 @@ function SetQuantity() {
   );
 }
 
-export default SetQuantity;
+export default SetQuantityNumeric;

@@ -53,7 +53,7 @@ span {
   /* Layout */
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   padding: 0px;
   margin: 0px;
 }
@@ -101,6 +101,11 @@ span {
   line-height: var(--line-paragraph-height);
 }
 
+.option-button:active {
+  background-color: var(--aqua);
+  color: var(--dark-green);
+}
+
 .option-button.left {
   border-radius: 0px 0px 0px 16px;
   border-right: 1.5px dashed var(--aqua);
@@ -110,6 +115,8 @@ span {
   border-radius: 0px 0px 16px 0px;
   border-left: 1.5px dashed var(--aqua);
 }
+
+
 
 /* Prevent scrolling */
 body.popup-open {

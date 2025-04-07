@@ -1,7 +1,10 @@
-// components/Popup.js
 import { useEffect } from 'react';
 import '../popups/PopUps.css';
 
+/*
+  All children:
+    SetQuantityNumeric
+*/
 
 function Popup({ children, onClose }) {
   useEffect(() => {

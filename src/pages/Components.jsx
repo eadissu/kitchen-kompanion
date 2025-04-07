@@ -15,10 +15,11 @@ import Subtract from '../icons/Subtract';
 
 /* Imported components */
 import DefaultButton from '../components/DefaultButton';
-import SetQuantity from '../popups/SetQuantity'
+import SetQuantityNumeric from '../popups/SetQuantityNumeric'
 import DropdownButton from '../components/DropDownButton';
 import TextField from '../components/TextField';
 import Popup from '../popups/PopUp';
+import SetQuantityQualitative from '../popups/SetQuantityQualitative';
 
 function Components() {
   const handleClick = () => {
@@ -46,7 +47,7 @@ function Components() {
         <TextField type="number" />
       </div>
       <div>
-        <Popup children={<SetQuantity />} />
+        <Popup children={<SetQuantityNumeric />} />
       </div>
 
     </div>

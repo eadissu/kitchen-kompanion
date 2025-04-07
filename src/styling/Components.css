@@ -106,6 +106,7 @@
 
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 
 .button-label {
@@ -160,6 +161,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  padding-left: 0px;
 
   /* Positioning */
   position: relative;
@@ -172,8 +174,8 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: auto;
-  min-width: 100%;
+  min-width: max-content;
+  width: max-content;
 
   /* Styling */
   display: flex;
@@ -184,7 +186,7 @@
   border-top: solid var(--grey) 1px;
 
   /* Ensure it appears on top */
-  z-index: 100; /* Make sure it appears above other elements */
+  z-index: 100;
 
   /* Styling */
   border-radius: 0px 0px 16px 16px;
