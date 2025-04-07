@@ -1,5 +1,46 @@
+/* Variables used for pretty much everything */
 :root {
-  font-family: Lexend;
+
+  /* Color Styles */
+  --dark-grey: 
+  --burnt-orange: #B55136;
+  --cream: #FFFBD5;
+  --dark-cream: #ECE3AA;
+  --aqua: #A8CABA;
+  --dark-aqua: #84B0AB;
+  --black: #202124;
+  --white: #FFFFF9;
+  
+  --red: #CC4853;
+  --dark-red: #641616;
+  --yellow: #F5D37A;
+  --dark-yellow: #824510;
+  --green: #95B55F;
+  --dark-green: #274432;
+
+  --grey: #D6DCD9;
+  --dark-grey: #4F6259;
+  --shadow-grey: #9AAAA2;
+  --dark-shadow-grey: #3E4843;
+
+  /* Shadows and Effect Styles*/
+  --drop-down-shadow: 0px 2px 0px 0px rgba(79, 98, 89, 0.10);
+  --box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 0px 0px rgba(79, 98, 89, 0.10);
+
+  /* Text styling */
+  --font-small-bold-family: 'Lexend';
+  --font-small-bold-size: 16px;
+  --font-small-bold-style: normal;
+  --font-small-bold-weight: 400;
+  --font-small-bold-line-height: normal;
+
+  --font-paragraph-family: Lexend;
+  --font-paragraph-size: 20px;
+  --font-paragraph-style: normal;
+  --font-paragraph-weight: 300;
+  --line-paragraph-height: normal;
+
+
 }
 
 body {
@@ -7,4 +48,3 @@ body {
   height: 1280px;
   border: solid 1px black;
 }
-

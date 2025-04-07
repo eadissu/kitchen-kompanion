@@ -1,4 +1,4 @@
-const Add = ({ className = "add-icon button-icon"}) => (
+const Add = ({ className = "math-icon button-icon"}) => (
   <svg 
     xmlns="http://www.w3.org/2000/svg" 
     viewBox="0 0 14 14" 

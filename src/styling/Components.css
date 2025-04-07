@@ -71,16 +71,25 @@
 .button {
   /* Layout */
   display: inline-flex;
-  height: 34px;
-  padding: 5px 16px;
   align-items: center;
+  justify-content: center;
+  height: 34px;
+  min-width: 34px;
+  padding: 5px 16px;
   gap: 12px;
 
   /* Style */
   border-radius: 100px;
   border-style: none;
-
 }
+
+/* When button only has icon */
+.button:has(.button-icon):not(:has(.button-label)) {
+  padding: 5px;       /* remove extra horizontal padding */
+  min-width: 34px;    /* keep square-ish */
+  gap: 0;             /* no gap if there's no text */
+}
+
 
 .button.icon-left {
   flex-direction: row;
@@ -152,20 +161,35 @@
   align-items: flex-start;
   gap: 12px;
 
+  /* Positioning */
+  position: relative;
+
   /* Styling */
-  border-radius: 0px 0px 16px 16px;
-  background: var(--white);
-  box-shadow: var(--drop-down-shadow);
 }
 
 .dropdown-menu {
+  /* Positioning */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: auto;
+  min-width: 100%;
+
+  /* Styling */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 6px;
-
-  padding-top: 12px;
+  padding: 12px;
   border-top: solid var(--grey) 1px;
+
+  /* Ensure it appears on top */
+  z-index: 100; /* Make sure it appears above other elements */
+
+  /* Styling */
+  border-radius: 0px 0px 16px 16px;
+  background: var(--white);
+  box-shadow: var(--drop-down-shadow);
 }
 
 .high {
@@ -190,5 +214,44 @@
   background: var(--grey);
   color: var(--dark-grey);
   fill: var(--dark-grey); 
+}
+
+/************ TEXT FIELD ************/
+.text-field {
+  /* Layout */
+  height: 34px;
+  width: 50px;
+  max-width: 100px;
+  padding: 0 16px;
+  text-align: center;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* Styling */
+  border-radius: 100px;
+  border: none;
+  outline: 1.5px solid var(--shadow-grey);
+  color: var(--dark-grey);
+  background-color: transparent;
+
+  /* Typography */
+  font-family: var(--font-small-bold-family);
+  font-size: var(--font-small-bold-size);
+  font-style: var(--font-small-bold-style);
+  font-weight: var(--font-small-bold-weight);
+  line-height: var(--font-small-bold-line-height);
+}
+
+.text-field:focus {
+  outline: 1.5px dashed var(--shadow-grey);
+}
+
+/* Remove the spinner for number input */
+.text-field[type="number"]::-webkit-outer-spin-button,
+.text-field[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 

@@ -17,6 +17,8 @@ import Subtract from '../icons/Subtract';
 import DefaultButton from '../components/DefaultButton';
 import SetQuantity from '../popups/SetQuantity'
 import DropdownButton from '../components/DropDownButton';
+import TextField from '../components/TextField';
+import Popup from '../popups/PopUp';
 
 function Components() {
   const handleClick = () => {
@@ -36,14 +38,17 @@ function Components() {
         <DefaultButton label="teal with icon" variant="teal" onClick={handleClick} iconPosition={"right"} icon={<Subtract />} />
       </div>
       <div>
-      <DropdownButton 
-        dropdownType="quantity" 
-      />
-
-      <DropdownButton 
-        dropdownType="unit" 
-      />
+        <DropdownButton dropdownType="quantity" />
+        <DropdownButton dropdownType="unit" />
       </div>
+      <div>
+        <TextField type="text" />
+        <TextField type="number" />
+      </div>
+      <div>
+        <Popup children={<SetQuantity />} />
+      </div>
+
     </div>
 
   );

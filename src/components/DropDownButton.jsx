@@ -4,6 +4,10 @@ import DownArrow from "../icons/DownArrow";
 import UpArrow from "../icons/UpArrow";
 import DefaultButton from "./DefaultButton";
 
+/* Drop Down Types: 
+  unit
+  quantity
+*/
 
 function DropdownButton({iconPosition = "right", dropdownType, onSelect }) {
   const isUnitDropdown = dropdownType === "unit";

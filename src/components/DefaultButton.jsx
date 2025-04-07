@@ -10,15 +10,17 @@ import '../styling/Components.css'
 
 */
 
-function DefaultButton({ label , onClick, variant, icon, iconPosition = "right"}) {
+function DefaultButton({ label, onClick, variant, icon, iconPosition = "right" }) {
   const variantClass = `button ${variant}`;
+  const hasLabel = Boolean(label);
 
   return (
     <button className={`${variantClass} icon-${iconPosition}`} onClick={onClick}>
-        {icon && <span className="button-icon">{icon}</span>}
-        <span className="button-label">{label}</span>
+      {icon && <span className="button-icon">{icon}</span>}
+      {hasLabel && <span className="button-label">{label}</span>}
     </button>
   );
 }
+
 
 export default DefaultButton;
