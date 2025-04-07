@@ -1,0 +1,259 @@
+/* Variables used for pretty much everything */
+:root {
+
+  /* Color Styles */
+  --dark-grey: 
+  --burnt-orange: #B55136;
+  --cream: #FFFBD5;
+  --dark-cream: #ECE3AA;
+  --aqua: #A8CABA;
+  --dark-aqua: #84B0AB;
+  --black: #202124;
+  --white: #FFFFF9;
+  
+  --red: #CC4853;
+  --dark-red: #641616;
+  --yellow: #F5D37A;
+  --dark-yellow: #824510;
+  --green: #95B55F;
+  --dark-green: #274432;
+
+  --grey: #D6DCD9;
+  --dark-grey: #4F6259;
+  --shadow-grey: #9AAAA2;
+  --dark-shadow-grey: #3E4843;
+
+  /* Shadows and Effect Styles*/
+  --drop-down-shadow: 0px 2px 0px 0px rgba(79, 98, 89, 0.10);
+
+  /* Text styling */
+  --font-small-bold-family: 'Lexend';
+  --font-small-bold-size: 16px;
+  --font-small-bold-style: normal;
+  --font-small-bold-weight: 400;
+  --font-small-bold-line-height: normal;
+
+
+}
+
+
+/************ ICONS ************/
+
+.vertical-arrow-icon {
+  width: 11.333px;
+  height: 8.485px;
+  flex-shrink: 0;
+  aspect-ratio: 11.33/8.48;
+
+  color: inherit; /* This keeps the arrow the same color as the label */  
+}
+
+.edit-icon {
+  width: 11.671px;
+  height: 11.668px;
+  flex-shrink: 0;
+}
+
+.horizontal-arrow-icon {
+  width: 6.857px;
+  height: 12px;
+  flex-shrink: 0;
+  aspect-ratio: 6.86/12.00;
+}
+
+.math-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/************ BUTTONS ************/
+
+.button {
+  /* Layout */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  min-width: 34px;
+  padding: 5px 16px;
+  gap: 12px;
+
+  /* Style */
+  border-radius: 100px;
+  border-style: none;
+}
+
+/* When button only has icon */
+.button:has(.button-icon):not(:has(.button-label)) {
+  padding: 5px;       /* remove extra horizontal padding */
+  min-width: 34px;    /* keep square-ish */
+  gap: 0;             /* no gap if there's no text */
+}
+
+
+.button.icon-left {
+  flex-direction: row;
+}
+
+.button.icon-right {
+  flex-direction: row-reverse;
+}
+
+.button-label,
+.button-icon {
+  color: inherit;
+  fill: inherit;
+
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.button-label {
+  font-family: var(--font-small-bold-family);
+  font-size: var(--font-small-bold-size);
+  font-style: var(--font-small-bold-style);
+  font-weight: var(--font-small-bold-weight);
+  line-height: var(--font-small-bold-line-height);
+}
+
+/* Variant: grey */
+.button.grey {
+  background: var(--grey);
+  color: var(--dark-grey);
+  fill: var(--dark-grey); 
+}
+
+/* Variant: dark-green */
+.button.dark-green {
+  background: var(--dark-grey);
+  color: var(--aqua);
+  fill: var(--aqua);
+}
+
+/* Variant: teal */
+.button.teal {
+  background: var(--dark-aqua);
+  color: var(--cream);
+  fill: var(--cream);
+}
+
+/* Variant: transparent */
+.button.transparent {
+  background: var(--grey);
+  mix-blend-mode: luminosity;
+  color: var(--dark-grey);
+  fill: var(--dark-grey);
+}
+
+/* Variant: silver-teal */
+.button.silver-teal {
+  background: var(--grey);
+  color: var(--dark-aqua);
+  fill: var(--dark-aqua);
+}
+
+/************ DROP DOWN ************/
+.dropdown-button-wrapper {
+  /* Layout */
+  display: inline-flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding-left: 0px;
+
+  /* Positioning */
+  position: relative;
+
+  /* Styling */
+}
+
+.dropdown-menu {
+  /* Positioning */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: max-content;
+  width: max-content;
+
+  /* Styling */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px;
+  border-top: solid var(--grey) 1px;
+
+  /* Ensure it appears on top */
+  z-index: 100;
+
+  /* Styling */
+  border-radius: 0px 0px 16px 16px;
+  background: var(--white);
+  box-shadow: var(--drop-down-shadow);
+}
+
+.high {
+  background: var(--green);
+  color: var(--dark-green);
+  fill: var(--dark-green);
+}
+
+.medium {
+  background: var(--yellow);
+  color: var(--dark-yellow);
+  fill: var(--dark-yellow);
+}
+
+.low {
+  background: var(--red);
+  color: var(--dark-red);
+  fill: var(--dark-red);
+}
+
+.unspecified {
+  background: var(--grey);
+  color: var(--dark-grey);
+  fill: var(--dark-grey); 
+}
+
+/************ TEXT FIELD ************/
+.text-field {
+  /* Layout */
+  height: 34px;
+  width: 50px;
+  max-width: 100px;
+  padding: 0 16px;
+  text-align: center;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* Styling */
+  border-radius: 100px;
+  border: none;
+  outline: 1.5px solid var(--shadow-grey);
+  color: var(--dark-grey);
+  background-color: transparent;
+
+  /* Typography */
+  font-family: var(--font-small-bold-family);
+  font-size: var(--font-small-bold-size);
+  font-style: var(--font-small-bold-style);
+  font-weight: var(--font-small-bold-weight);
+  line-height: var(--font-small-bold-line-height);
+}
+
+.text-field:focus {
+  outline: 1.5px dashed var(--shadow-grey);
+}
+
+/* Remove the spinner for number input */
+.text-field[type="number"]::-webkit-outer-spin-button,
+.text-field[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
