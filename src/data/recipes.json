@@ -1,0 +1,78 @@
+{
+    "recipeLists": [
+      {
+        "title": "Top Recipes for You",
+        "description": "A selection of popular and easy-to-follow dishes to get you started.",
+        "recipes": [
+          {
+            "name": "Spaghetti Bolognese",
+            "picture": "spaghetti.jpg",
+            "length": 45,
+            "difficulty": "Medium",
+            "feeds": 4,
+            "ingredients": [
+              { "quantity": "200g", "item": { "name": "Spaghetti" } },
+              { "quantity": "300g", "item": { "name": "Ground Beef" } },
+              { "quantity": "1", "item": { "name": "Onion", "details": "diced" } },
+              { "quantity": "2 cloves", "item": { "name": "Garlic", "details": "minced" } },
+              { "quantity": "400g", "item": { "name": "Tomato Sauce" } },
+              { "quantity": "To taste", "item": { "name": "Salt & Pepper" } }
+            ],
+            "steps": [
+              "Boil spaghetti as per package instructions.",
+              "In a pan, cook onions and garlic until soft.",
+              "Add ground beef and cook until browned.",
+              "Pour in tomato sauce, season with salt and pepper, and simmer.",
+              "Mix spaghetti with the sauce and serve hot."
+            ],
+            "tags": ["Italian", "Pasta", "Dinner"]
+          },
+          {
+            "name": "Chicken Caesar Salad",
+            "picture": "chicken_caesar_salad.jpg",
+            "length": 20,
+            "difficulty": "Easy",
+            "feeds": 2,
+            "ingredients": [
+              { "quantity": "1", "item": { "name": "Romaine Lettuce", "details": "chopped" } },
+              { "quantity": "1", "item": { "name": "Chicken Breast", "details": "grilled and sliced" } },
+              { "quantity": "2 tbsp", "item": { "name": "Caesar Dressing" } },
+              { "quantity": "As needed", "item": { "name": "Parmesan Cheese", "details": "shredded" } },
+              { "quantity": "Optional", "item": { "name": "Croutons" } }
+            ],
+            "steps": [
+              "Wash and chop the romaine lettuce.",
+              "Grill or pan-sear the chicken breast; slice into strips.",
+              "Place lettuce in a bowl, add chicken, Caesar dressing, cheese, and croutons if desired.",
+              "Toss well and serve immediately."
+            ],
+            "tags": ["Salad", "Lunch", "Quick"]
+          },
+          {
+            "name": "Chocolate Mug Cake",
+            "picture": "chocolate_mug_cake.jpg",
+            "length": 5,
+            "difficulty": "Easy",
+            "feeds": 1,
+            "ingredients": [
+              { "quantity": "4 tbsp", "item": { "name": "All-Purpose Flour" } },
+              { "quantity": "4 tbsp", "item": { "name": "Sugar" } },
+              { "quantity": "2 tbsp", "item": { "name": "Cocoa Powder" } },
+              { "quantity": "1", "item": { "name": "Egg" } },
+              { "quantity": "3 tbsp", "item": { "name": "Milk" } },
+              { "quantity": "3 tbsp", "item": { "name": "Vegetable Oil" } },
+              { "quantity": "Pinch", "item": { "name": "Salt" } }
+            ],
+            "steps": [
+              "Mix flour, sugar, cocoa powder, and salt in a microwave-safe mug.",
+              "Stir in egg, milk, and oil until smooth.",
+              "Microwave on high for about 90 seconds to 2 minutes (depending on your microwave).",
+              "Let it cool slightly before digging in."
+            ],
+            "tags": ["Dessert", "Quick", "Chocolate"]
+          }
+        ]
+      }
+    ]
+  }
+  

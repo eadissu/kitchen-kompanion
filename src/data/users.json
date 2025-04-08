@@ -26,8 +26,12 @@
       {"id": 0},
       {"id": 4} 
     ],
-    "favorite_recipes": [
+    "saved_recipes": [
       {"id": 10}
+    ]
+    ,
+    "recently_recipes": [
+      {"id": 11}
     ]
   }
 ]

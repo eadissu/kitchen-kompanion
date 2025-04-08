@@ -353,5 +353,879 @@
       }
     },
     "category": "Fruits"
-  }
-]
+  },
+    {
+      "id": 5,
+      "name": "Spaghetti",
+      "image": "5_spaghetti.png",
+      "category": "Grains & Cereals",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 140,
+          "unit": "g",
+          "common_name": "1 cup cooked"
+        },
+        "calories": 221,
+        "total_fat": {
+          "value": 1.3,
+          "unit": "g",
+          "percentage": 2
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 1,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 43,
+          "unit": "g",
+          "percentage": 14
+        },
+        "dietary_fiber": {
+          "value": 2.5,
+          "unit": "g",
+          "percentage": 10
+        },
+        "sugars": {
+          "value": 0.8,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 8.1,
+          "unit": "g"
+        },
+        "minerals": {
+          "Calcium": {
+            "value": 9,
+            "unit": "mg",
+            "percentage": 1
+          },
+          "Iron": {
+            "value": 2.2,
+            "unit": "mg",
+            "percentage": 12
+          }
+        },
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ground Beef",
+      "image": "6_ground_beef.png",
+      "category": "Proteins",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 85,
+          "unit": "g",
+          "common_name": "3 oz"
+        },
+        "calories": 215,
+        "total_fat": {
+          "value": 13,
+          "unit": "g",
+          "percentage": 17
+        },
+        "trans_fat": {
+          "value": 1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 75,
+          "percentage": 25
+        },
+        "sodium": {
+          "value": 60,
+          "unit": "mg",
+          "percentage": 3
+        },
+        "total_carbohydrates": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 22,
+          "unit": "g"
+        },
+        "minerals": {
+          "Iron": {
+            "value": 2.2,
+            "unit": "mg",
+            "percentage": 12
+          }
+        },
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 7,
+      "name": "Onion",
+      "image": "7_onion.png",
+      "category": "Vegetables",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 110,
+          "unit": "g",
+          "common_name": "1 medium"
+        },
+        "calories": 44,
+        "total_fat": {
+          "value": 0.1,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 4,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 10,
+          "unit": "g",
+          "percentage": 3
+        },
+        "dietary_fiber": {
+          "value": 1.9,
+          "unit": "g",
+          "percentage": 8
+        },
+        "sugars": {
+          "value": 4.7,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "minerals": {
+          "Calcium": {
+            "value": 20,
+            "unit": "mg",
+            "percentage": 2
+          }
+        },
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 8,
+      "name": "Garlic",
+      "image": "8_garlic.png",
+      "category": "Vegetables",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 3,
+          "unit": "g",
+          "common_name": "1 clove"
+        },
+        "calories": 4,
+        "total_fat": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 0.5,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 1,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0.1,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0.2,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 9,
+      "name": "Tomato Sauce",
+      "image": "9_tomato_sauce.png",
+      "category": "Sauces & Condiments",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 126,
+          "unit": "g",
+          "common_name": "1/2 cup"
+        },
+        "calories": 29,
+        "total_fat": {
+          "value": 0.2,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 290,
+          "unit": "mg",
+          "percentage": 12
+        },
+        "total_carbohydrates": {
+          "value": 6,
+          "unit": "g",
+          "percentage": 2
+        },
+        "dietary_fiber": {
+          "value": 1.5,
+          "unit": "g",
+          "percentage": 6
+        },
+        "sugars": {
+          "value": 4,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 1,
+          "unit": "g"
+        },
+        "minerals": {
+          "Iron": {
+            "value": 1.3,
+            "unit": "mg",
+            "percentage": 7
+          }
+        },
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 10,
+      "name": "Salt",
+      "image": "10_salt_png",
+      "category": "Herbs & Spices",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 1,
+          "unit": "g",
+          "common_name": "Condiments & Sauces"
+        },
+        "calories": 0,
+        "total_fat": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 380,
+          "unit": "mg",
+          "percentage": 16
+        },
+        "total_carbohydrates": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 11,
+      "name": "Romaine Lettuce",
+      "image": "11_romaine_lettuce.png",
+      "category": "Vegetables",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 47,
+          "unit": "g",
+          "common_name": "1 cup chopped"
+        },
+        "calories": 8,
+        "total_fat": {
+          "value": 0.1,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 4,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 1.5,
+          "unit": "g",
+          "percentage": 1
+        },
+        "dietary_fiber": {
+          "value": 1,
+          "unit": "g",
+          "percentage": 4
+        },
+        "sugars": {
+          "value": 0.4,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0.6,
+          "unit": "g"
+        },
+        "minerals": {
+          "Calcium": {
+            "value": 16,
+            "unit": "mg",
+            "percentage": 2
+          }
+        },
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 12,
+      "name": "Chicken Breast",
+      "image": "12_chicken_breast.png",
+      "category": "Proteins",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 120,
+          "unit": "g",
+          "common_name": "1 piece grilled"
+        },
+        "calories": 198,
+        "total_fat": {
+          "value": 4,
+          "unit": "g",
+          "percentage": 5
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 85,
+          "percentage": 28
+        },
+        "sodium": {
+          "value": 70,
+          "unit": "mg",
+          "percentage": 3
+        },
+        "total_carbohydrates": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 37,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 13,
+      "name": "Caesar Dressing",
+      "image": "13_caesar_dressing.png",
+      "category": "Condiments & Sauces",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 30,
+          "unit": "g",
+          "common_name": "2 tbsp"
+        },
+        "calories": 150,
+        "total_fat": {
+          "value": 15,
+          "unit": "g",
+          "percentage": 19
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 10,
+          "percentage": 3
+        },
+        "sodium": {
+          "value": 290,
+          "unit": "mg",
+          "percentage": 12
+        },
+        "total_carbohydrates": {
+          "value": 2,
+          "unit": "g",
+          "percentage": 1
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 1,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 1,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 14,
+      "name": "Parmesan Cheese",
+      "image": "14_parmesan_cheese.png",
+      "category": "Dairy",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 5,
+          "unit": "g",
+          "common_name": "1 tbsp shredded"
+        },
+        "calories": 21,
+        "total_fat": {
+          "value": 1.4,
+          "unit": "g",
+          "percentage": 2
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 4,
+          "percentage": 1
+        },
+        "sodium": {
+          "value": 76,
+          "unit": "mg",
+          "percentage": 3
+        },
+        "total_carbohydrates": {
+          "value": 0.2,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 1.9,
+          "unit": "g"
+        },
+        "minerals": {
+          "Calcium": {
+            "value": 60,
+            "unit": "mg",
+            "percentage": 5
+          }
+        },
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 15,
+      "name": "Croutons",
+      "image": "15_croutons.png",
+      "category": "Grains & Cereals",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 7,
+          "unit": "g",
+          "common_name": "1 tbsp"
+        },
+        "calories": 28,
+        "total_fat": {
+          "value": 0.6,
+          "unit": "g",
+          "percentage": 1
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 50,
+          "unit": "mg",
+          "percentage": 2
+        },
+        "total_carbohydrates": {
+          "value": 5,
+          "unit": "g",
+          "percentage": 2
+        },
+        "dietary_fiber": {
+          "value": 0.3,
+          "unit": "g",
+          "percentage": 1
+        },
+        "sugars": {
+          "value": 0.2,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0.8,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 16,
+      "name": "All-Purpose Flour",
+      "image": "16_all_purpose_flour.png",
+      "category": "Grains & Cereals",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 125,
+          "unit": "g",
+          "common_name": "1 cup"
+        },
+        "calories": 455,
+        "total_fat": {
+          "value": 1.2,
+          "unit": "g",
+          "percentage": 2
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 3,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 95,
+          "unit": "g",
+          "percentage": 32
+        },
+        "dietary_fiber": {
+          "value": 3,
+          "unit": "g",
+          "percentage": 12
+        },
+        "sugars": {
+          "value": 0.3,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 13,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 17,
+      "name": "Sugar",
+      "image": "17_sugar.png",
+      "category": "Sweeteners",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 4,
+          "unit": "g",
+          "common_name": "1 tsp"
+        },
+        "calories": 16,
+        "total_fat": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 4,
+          "unit": "g",
+          "percentage": 1
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 4,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 18,
+      "name": "Cocoa Powder",
+      "image": "18_cocoa_powder.png",
+      "category": "Sweeteners",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 5,
+          "unit": "g",
+          "common_name": "1 tbsp"
+        },
+        "calories": 12,
+        "total_fat": {
+          "value": 0.7,
+          "unit": "g",
+          "percentage": 1
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 1,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 3,
+          "unit": "g",
+          "percentage": 1
+        },
+        "dietary_fiber": {
+          "value": 2,
+          "unit": "g",
+          "percentage": 8
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 1,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 19,
+      "name": "Vegetable Oil",
+      "image": "19_vegetable_oil.png",
+      "category": "Fats & Oils",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 14,
+          "unit": "g",
+          "common_name": "1 tbsp"
+        },
+        "calories": 120,
+        "total_fat": {
+          "value": 14,
+          "unit": "g",
+          "percentage": 18
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg",
+          "percentage": 0
+        },
+        "total_carbohydrates": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    },
+    {
+      "id": 20,
+      "name": "Pepper",
+      "image": "20_pepper.png",
+      "category": "Herbs & Spices",
+      "nutritional_facts": {
+        "serving_size": {
+          "value": 6,
+          "unit": "g",
+          "common_name": "1 tsp"
+        },
+        "calories": 0,
+        "total_fat": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "trans_fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0,
+          "percentage": 0
+        },
+        "sodium": {
+          "value": 2325,
+          "unit": "mg",
+          "percentage": 97
+        },
+        "total_carbohydrates": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "dietary_fiber": {
+          "value": 0,
+          "unit": "g",
+          "percentage": 0
+        },
+        "sugars": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "minerals": {},
+        "vitamins": {}
+      }
+    }
+  ]
+  
