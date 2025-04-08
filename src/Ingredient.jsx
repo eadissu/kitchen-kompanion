@@ -7,6 +7,7 @@ function Ingredient(id, name){
         
     <div class="ingredbox">
         <h2>Ingredient Item Name</h2>
+        
     </div>
     
 

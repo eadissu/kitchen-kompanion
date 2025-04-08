@@ -43,3 +43,11 @@ ingredtext {
     font-weight: 400;
     line-height: normal;
 }
+
+.brownbox {
+    width: 58px;
+    height: 58px;
+    aspect-ratio: 1/1;
+    border-radius: 11px;
+    background: var(--Burnt-Orange, #B55136);
+}
