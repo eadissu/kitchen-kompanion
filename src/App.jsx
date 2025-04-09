@@ -1,34 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// Pages
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import Header from './components/Header';
 
 import ShoppingList from './pages/ShoppingList';
-import Search from "./pages/Search";
-import Navbar from "./components/NavBar";
 import Kitchen from "./pages/Kitchen";
 import Recipes from './pages/Recipes';
 import Profile from './pages/Profile';
-import Ingredient from './components/Ingredient';
-import PopUps from './popups/PopUp';
-import Components from './pages/Components';
+
+import "./App.css"
+import "./index.css"
 
 function App() {
+  const location = useLocation();
+  const currentPath = location.pathname;
+
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/search" element={<Search />} />
-        <Route path="/PopUps" element={<PopUps />} />
-        <Route path="/Ingredient" element={<Ingredient />} />
-        <Route path="/Kitchen" element={<Kitchen />} />
-        <Route path="/shoppinglist" element={<ShoppingList />} />
-        <Route path="/components" element={<Components/>} />
-      </Routes>
-    </Router>
+    <div className="app-container">
+      <div className="app-frame">
+        <Header pageName={currentPath} />
+        <div className="app-content">
+          <Routes>
+            <Route path="/" element={<Navigate to="/Kitchen" />} />
+            <Route path="/Kitchen" element={<Kitchen />} />
+            <Route path="/ShoppingList" element={<ShoppingList />} />
+            <Route path="/Recipes" element={<Recipes />} />
+            <Route path="/Profile" element={<Profile />} />
+          </Routes>
+        </div>
+        <Navbar />
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  width: 600px;
+  height: 64px;
+  padding: 30px 51px 16px 51px;
+  align-items: center;
+  gap: 51px;
+  background: var(--white);
+}
+
+.header h1 {
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  /* Typography */
+  color: var(--burnt-orange);
+  font-family: Plaster;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  align-self: stretch;
+
+  color: var(--burnt-orange);
+
+  /* header */
+  font-family: Lexend;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -18,6 +18,7 @@
   --green: #95B55F;
   --dark-green: #274432;
 
+  --light-grey: #E4E8E4;
   --grey: #D6DCD9;
   --shadow-grey: #9AAAA2;
   --dark-shadow-grey: #3E4843;
@@ -27,6 +28,7 @@
   --box-shadow: 
     0px 3.2px 3.2px 0px rgba(0, 0, 0, 0.25), 
     0px 1.6px 0px 0px rgba(79, 98, 89, 0.10);
+  --inset-shadow: 0px 3px 2px 0px rgba(79, 98, 89, 0.10) inset;
 
   /* Text styling */
   --font-small-bold-family: 'Lexend';
@@ -56,9 +58,6 @@
 
 }
 
-
-body {
-  width: 640px;
-  height: 800px;
-  border: solid 1px black;
+* {
+  font-family: var(--font-paragraph-family);
 }

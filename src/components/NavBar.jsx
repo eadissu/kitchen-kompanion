@@ -1,20 +1,55 @@
 import { Link, useLocation } from "react-router-dom";
 import '../styling/NavBar.css';
 
-import shoppingIcon from '../assets/icons/shoppinglist.svg';
-import kitchenIcon from '../assets/icons/kitchen.svg';
-import recipesIcon from '../assets/icons/recipes.svg';
-import profileIcon from '../assets/icons/profile.svg';
+import NavbarTab from "./NavbarTab";
+
+/* Icons */
+import PantryIcon from "../icons/PantryIcon";
+import ShoppingListIcon from "../icons/ShoppingListIcon";
+import RecipesIcon from "../icons/RecipesIcon";
+import ProfileIcon from "../icons/ProfileIcon";
 
 function Navbar() {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  return (
-    <div>
-      <div className="navbar-header">🍳 Kitchen Kompanion</div>
+  console.log(currentPath);
 
-      <nav className="navbar">
+  return (
+    <div className="navbar">
+      <nav className="navbar-inner">
+        <Link to="/kitchen">
+          <NavbarTab 
+            icon={<PantryIcon />} 
+            classname={currentPath === "/kitchen" ? "active" : ""}
+          />
+        </Link>
+        <Link to="/shoppinglist">
+          <NavbarTab 
+            icon={<ShoppingListIcon />} 
+            classname={currentPath === "/shoppinglist" ? "active" : ""}
+          />
+        </Link>
+        <Link to="/recipes">
+          <NavbarTab 
+            icon={<RecipesIcon />}
+            classname={currentPath === "/recipes" ? "active" : ""} 
+          />
+        </Link>
+        <Link to="/profile">
+          <NavbarTab 
+            icon={<ProfileIcon />} 
+            classname={currentPath === "/profile" ? "active" : ""}
+          />
+        </Link>
+      </nav>
+    </div>
+  );
+}
+
+export default Navbar;
+
+/*
         <ul className="navbar-links">
           <li>
             <Link to="/shoppinglist">
@@ -24,8 +59,7 @@ function Navbar() {
                 className={`nav-icon ${currentPath === '/shoppinglist' ? 'active' : ''}`}
               />
             </Link>
-          </li>
-          <li>
+
             <Link to="/kitchen">
               <img
                 src={kitchenIcon}
@@ -59,4 +93,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+*/
