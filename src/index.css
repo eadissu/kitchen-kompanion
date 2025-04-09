@@ -2,7 +2,7 @@
 :root {
 
   /* Color Styles */
-  --dark-grey: 
+  --dark-grey: #4F6259;
   --burnt-orange: #B55136;
   --cream: #FFFBD5;
   --dark-cream: #ECE3AA;
@@ -10,7 +10,7 @@
   --dark-aqua: #84B0AB;
   --black: #202124;
   --white: #FFFFF9;
-  
+
   --red: #CC4853;
   --dark-red: #641616;
   --yellow: #F5D37A;
@@ -19,33 +19,46 @@
   --dark-green: #274432;
 
   --grey: #D6DCD9;
-  --dark-grey: #4F6259;
   --shadow-grey: #9AAAA2;
   --dark-shadow-grey: #3E4843;
 
-  /* Shadows and Effect Styles*/
-  --drop-down-shadow: 0px 2px 0px 0px rgba(79, 98, 89, 0.10);
-  --box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 0px 0px rgba(79, 98, 89, 0.10);
+  /* Shadows and Effect Styles */
+  --drop-down-shadow: 0px 1.6px 0px 0px rgba(79, 98, 89, 0.10);
+  --box-shadow: 
+    0px 3.2px 3.2px 0px rgba(0, 0, 0, 0.25), 
+    0px 1.6px 0px 0px rgba(79, 98, 89, 0.10);
 
   /* Text styling */
   --font-small-bold-family: 'Lexend';
-  --font-small-bold-size: 16px;
+  --font-small-bold-size: 12.8px; /* 16px * 0.8 */
   --font-small-bold-style: normal;
   --font-small-bold-weight: 400;
   --font-small-bold-line-height: normal;
 
   --font-paragraph-family: Lexend;
-  --font-paragraph-size: 20px;
+  --font-paragraph-size: 16px; /* 20px * 0.8 */
   --font-paragraph-style: normal;
   --font-paragraph-weight: 300;
   --line-paragraph-height: normal;
   
   --font-paragraph-bold-weight: 400;
 
+  --radius-pill: 100px;
+  --button-height: 27.2px;
+  --button-padding: 5px 12.8px;
+  --button-gap: 9.6px;
+  --dropdown-padding: 9.6px;
+  --dropdown-gap: 6px;
+  --text-field-width: 40px;
+  --text-field-max-width: 80px;
+  --outline-default: 1.5px solid var(--shadow-grey);
+  --outline-focus: 1.5px dashed var(--shadow-grey);
+
 }
 
+
 body {
-  width: 800px;
-  height: 1280px;
+  width: 640px;
+  height: 800px;
   border: solid 1px black;
 }

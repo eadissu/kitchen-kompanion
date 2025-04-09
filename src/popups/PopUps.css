@@ -6,96 +6,82 @@
   transform: translate(-50%, -50%);
   z-index: 1000;
 
-
   /* Layout */
   display: flex;
-  width: 410px;
+  width: 328px; /* 410px * 0.8 */
   flex-direction: column;
   align-items: flex-start;
 
   /* Styling */
-  border-radius: 16px 16px 16px 16px;
+  border-radius: 12.8px;
   box-shadow: var(--box-shadow);
-
 }
-
 
 .interactive-contents {
   /* Layout */ 
   display: flex;
-  padding: 32px 32px 24px 32px;
+  padding: 25.6px 25.6px 19.2px 25.6px; /* 32px, 32px, 24px, 32px -> *0.8 */
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 6.4px; /* 8px * 0.8 */
   align-self: stretch;
 
   /* Style */
-  border-radius: 16px 16px 0px 0px;
+  border-radius: 12.8px 12.8px 0px 0px;
   background: var(--white);
 }
 
 span {
-  /* Layout */
   align-self: stretch;
   text-align: left;
-
   color: var(--Black);
 
-  /* body */
   font-family: var(--font-paragraph-family);
-  font-size: var(--font-paragraph-size);
+  font-size: var(--font-paragraph-size); /* Already scaled in :root */
   font-style: var(--font-paragraph-style);
   font-weight: var(--font-paragraph-weight);
   line-height: var(--line-paragraph-height);
 }
 
 .editable {
-  /* Layout */
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12.8px; /* 16px * 0.8 */
   padding: 0px;
   margin: 0px;
 }
 
 .input {
-  /* Layout */
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 3.2px; /* 4px * 0.8 */
 }
 
 .options {
-  /* Layout */
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: stretch;
 
-  /* Style */
-  border-radius: 0px 0px 16px 16px;
-  border-top: 1.5px solid var(--aqua);
+  border-radius: 0px 0px 12.8px 12.8px; /* 16px * 0.8 */
+  border-top: 1.2px solid var(--aqua); /* 1.5px * 0.8 */
 }
 
 .option-button {
-  /* Layout */
   display: flex;
-  padding: 16px 0px;
+  padding: 12.8px 0px; /* 16px * 0.8 */
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 8px; /* 10px * 0.8 */
   flex: 1 0 0;
 
-  /* Style */
   background: var(--white);
   border: none;
 
-  /* Typography */
   color: var(--black);
 
-  /* body bold */
   font-family: var(--font-paragraph-family);
-  font-size: var(--font-paragraph-size);
+  font-size: var(--font-paragraph-size); /* Already scaled in :root */
   font-style: var(--font-paragraph-style);
   font-weight: var(--font-paragraph-bold-weight);
   line-height: var(--line-paragraph-height);
@@ -107,16 +93,14 @@ span {
 }
 
 .option-button.left {
-  border-radius: 0px 0px 0px 16px;
-  border-right: 1.5px dashed var(--aqua);
+  border-radius: 0px 0px 0px 12.8px;
+  border-right: 1.2px dashed var(--aqua);
 }
 
 .option-button.right {
-  border-radius: 0px 0px 16px 0px;
-  border-left: 1.5px dashed var(--aqua);
+  border-radius: 0px 0px 12.8px 0px;
+  border-left: 1.2px dashed var(--aqua);
 }
-
-
 
 /* Prevent scrolling */
 body.popup-open {
@@ -130,6 +114,6 @@ body.popup-open {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent dark */
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
